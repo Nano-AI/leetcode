@@ -1,9 +1,10 @@
 class Solution {
 public:
     int reverse(int x) {
+        /*
         if (x < -2147483648 || x > 2147483647) {
         return 0;
-    }
+    }*/
     long out = 0;
     long iterate = x;
     while (iterate != 0) {
